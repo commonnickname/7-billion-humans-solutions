@@ -1,19 +1,14 @@
-if w == hole:
-	takefrom s
-	a:
-	if myitem == nothing:
-		takefrom s
-	endif
-	jump a
-endif
-if nw == nw:
-	if myitem == myitem:
-		if myitem == myitem:
-			if myitem == myitem:
-				if myitem == myitem:
-					if myitem == myitem:
-						if myitem == myitem:
-							if myitem == myitem:
+-- 7 Billion Humans (2145) --
+-- 47: Automated Pleasantries --
+
+if w == worker:
+	if e == nothing:
+		if nw == nw:
+			if nw == nw:
+				if nw == nw:
+					if nw == nw:
+						if nw == nw:
+							if nw == nw:
 								if myitem == myitem:
 								endif
 							endif
@@ -22,15 +17,6 @@ if nw == nw:
 				endif
 			endif
 		endif
-	endif
-endif
-if myitem == myitem:
-endif
-if e == worker:
-	b:
-	c:
-	takefrom w
-	if myitem == datacube:
 		if myitem == myitem:
 			if myitem == myitem:
 				if myitem == myitem:
@@ -65,39 +51,18 @@ if e == worker:
 					if myitem == myitem:
 						if myitem == myitem:
 							if myitem == myitem:
+								if myitem == myitem:
+								endif
 							endif
 						endif
 					endif
 				endif
 			endif
 		endif
-		jump c
-	endif
-	if nw == nw:
-	endif
-	jump b
-endif
-d:
-e:
-takefrom w
-if myitem == datacube:
-	giveto s
-	if myitem == myitem:
 		if myitem == myitem:
-			if myitem == myitem:
-				if myitem == myitem:
-					if myitem == myitem:
-						if myitem == myitem:
-							if myitem == myitem:
-							endif
-						endif
-					endif
-				endif
-			endif
 		endif
+		tell w morning
 	endif
-	jump e
+	listenfor morning
 endif
-if nw == nw:
-endif
-jump d
+tell e morning
